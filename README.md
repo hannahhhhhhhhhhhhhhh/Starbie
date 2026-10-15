@@ -3,6 +3,11 @@
 Starbie is a custom gun shaped digital pet designed in KiCad.
 
 ---
+## Screenshots of the schematic and pcb editor <3
+<img width="1660" height="745" alt="image" src="https://github.com/user-attachments/assets/c95a227f-2b6f-48ee-a6a1-4a0bb7cb84bb" />
+<img width="1350" height="776" alt="image" src="https://github.com/user-attachments/assets/2072128b-5478-42ee-9ca4-75f847362d47" />
+<img width="1342" height="743" alt="image" src="https://github.com/user-attachments/assets/3050bc89-7c75-4e0a-80a1-5f3b9b097c50" />
+
 
 ## Hardware Specifications & Component List
 To fully assemble the Starbie PCB,  the following components are needed:
