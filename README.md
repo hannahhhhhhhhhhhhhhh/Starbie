@@ -1,6 +1,6 @@
 # Starbie !
 <img width="1810" height="919" alt="image" src="https://github.com/user-attachments/assets/c9d79570-6f7f-468a-bca1-861cc322a18c" />
-Starbie is a custom gun shaped development board designed in KiCad.
+Starbie is a custom gun shaped digital pet designed in KiCad.
 
 ---
 
