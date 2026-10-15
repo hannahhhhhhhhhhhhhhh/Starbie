@@ -1,7 +1,11 @@
 # Starbie !
 <img width="1810" height="919" alt="image" src="https://github.com/user-attachments/assets/c9d79570-6f7f-468a-bca1-861cc322a18c" />
 Starbie is a custom gun shaped digital pet designed in KiCad.
-
+It features an OLED display that shows a character, which reacts to its environment using onboard sensors. 
+The MPU6050 accelerometer and gyroscope module detects movement and orientation, allowing the character to respond when the badge is tilted or shaken. 
+The DHT11 sensor reads the surrounding temperature and humidity, which can influence how the character behaves or what gets displayed on screen. 
+Two push buttons allow the user to manually interact with the badge. 
+All components communicate with the ESP32-C3 over I2C or direct GPIO pins as defined in the schematic, and the board is powered over USB-C through the XIAO module.
 ---
 ## Screenshots of the schematic and pcb editor <3
 <img width="1660" height="745" alt="image" src="https://github.com/user-attachments/assets/c95a227f-2b6f-48ee-a6a1-4a0bb7cb84bb" />
@@ -31,5 +35,30 @@ To fully assemble the Starbie PCB,  the following components are needed:
 
 Also included the gerber files for the pcb
 ---
+## Why I Made This
 
+I think a digital pet is a really cool concept and that we can code it based on our interests so I mostly followed the idea of the tutorial, but also I wanted it to look and act different which is why I designed it differently. I had a lot of fun making this project and learned a lot about kicad.
+
+## Firmware Flashing Guide
+
+### You Need:
+- Arduino IDE
+- ESP32 board package installed in Arduino IDE
+- USB-C cable
+- Install the ESP32 Board Package
+
+### Connecting the Board
+1. Plug the XIAO ESP32-C3 into your computer via USB-C
+2. Wait for drivers to install
+
+### Selecting the Board in Arduino IDE
+1. Go to Tools > Board > esp32 > XIAO_ESP32C3
+2. Go to Tools > Port and select the port that appeared when you 
+   plugged in the board 
+
+### Upload Sketch
+1. Open `Starbie.ino` in Arduino IDE
+2. Click the Upload button
+3. Wait for "Done uploading" to appear
+4. Done!!
 
