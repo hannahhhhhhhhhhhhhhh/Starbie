@@ -6,7 +6,9 @@ The MPU6050 accelerometer and gyroscope module detects movement and orientation,
 The DHT11 sensor reads the surrounding temperature and humidity, which can influence how the character behaves or what gets displayed on screen. 
 Two push buttons allow the user to manually interact with the badge. 
 All components communicate with the ESP32-C3 over I2C or direct GPIO pins as defined in the schematic, and the board is powered over USB-C through the XIAO module.
+
 ---
+
 ## Screenshots of the schematic and pcb editor <3
 <img width="1660" height="745" alt="image" src="https://github.com/user-attachments/assets/c95a227f-2b6f-48ee-a6a1-4a0bb7cb84bb" />
 <img width="1350" height="776" alt="image" src="https://github.com/user-attachments/assets/2072128b-5478-42ee-9ca4-75f847362d47" />
