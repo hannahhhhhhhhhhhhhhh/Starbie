@@ -64,6 +64,13 @@ I think a digital pet is a really cool concept and that we can code it based on 
 3. Wait for "Done uploading" to appear
 4. Done!!
 
-### BOM
-<img width="983" height="556" alt="image" src="https://github.com/user-attachments/assets/78660038-4750-4273-a5ac-45342fa41538" />
+## Bill of Materials
 
+| Item | Qty | Supplier | Cost/Item (CAD) | Total Cost (CAD) |
+|------|-----|----------|-----------------|------------------|
+| XIAO ESP32-S3 | 1 | Seeed Studio | $7.49 | $7.49 |
+| SW_Push Button | 1 | YUNZII | $12.99 | $12.99 |
+| Conn_01x07 7-pin Header | 1 | Seeed Studio | $0.64 | $0.64 |
+| PCB Fabrication (JLCPCB) | 1 | JLCPCB | $9.40 | $9.40 |
+| Estimated Shipping | 1 | — | — | $2.00 |
+| | | | **Total** | **$32.52** |
