@@ -66,11 +66,12 @@ I think a digital pet is a really cool concept and that we can code it based on 
 
 ## Bill of Materials
 
-| Item | Qty | Supplier | Cost/Item (CAD) | Total Cost (CAD) |
-|------|-----|----------|-----------------|------------------|
-| XIAO ESP32-S3 | 1 | Seeed Studio | $7.49 | $7.49 |
-| SW_Push Button | 1 | YUNZII | $12.99 | $12.99 |
-| Conn_01x07 7-pin Header | 1 | Seeed Studio | $0.64 | $0.64 |
-| PCB Fabrication (JLCPCB) | 1 | JLCPCB | $9.40 | $9.40 |
-| Estimated Shipping | 1 | — | — | $2.00 |
-| | | | **Total** | **$32.52** |
+| Component | Quantity | Unit Price (CAD) | Total Price (CAD) |
+|-----------|----------|------------------|-------------------|
+| XIAO ESP32-C3 | 1 | $8.50 | $8.50 |
+| Push Button (SW_Push) | 2 | $2.79 | $5.58 |
+| 0.96in OLED Display 4-pin I2C | 1 | $3.50 | $3.50 |
+| MPU6050 Accelerometer Module | 1 | $2.70 | $2.70 |
+| DHT11 Temperature Humidity Sensor | 1 | $2.16 | $2.16 |
+| PCB Fabrication (JLCPCB) | 1 | $14.68 | $14.68 |
+| | | **Total** | **$37.12** |
