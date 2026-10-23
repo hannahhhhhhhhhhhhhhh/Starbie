@@ -64,3 +64,6 @@ I think a digital pet is a really cool concept and that we can code it based on 
 3. Wait for "Done uploading" to appear
 4. Done!!
 
+### BOM
+<img width="983" height="556" alt="image" src="https://github.com/user-attachments/assets/78660038-4750-4273-a5ac-45342fa41538" />
+
